@@ -80,23 +80,21 @@ console.log(output);
 
 <!--EJERCICIO 8-->
 <script> 
-var operador = ['resta', 'suma', 'multiplicacion']; 
+var operador = 'multiplicación'
 var valor1 = 40;
 var valor2 = 20;
 
-var resta = function calculadora (operador, valor1,valor2){
+function calculadora (operador, valor1,valor2){
+    if (operador == 'resta')
     return valor1-valor2;
-}; 
-var suma = function calculadora (operador, valor1,valor2){
-    return valor1+valor2;
-}; 
-var multiplicacion = function calculadora (operador, valor1,valor2){
-    return valor1*valor2; 
-};
 
-console.log("Si a " + valor1 + " le restamos " + valor2 + " el resultado es " + resta(operador, valor1,valor2));
-console.log("Si a " + valor1 + " le sumamos " + valor2 + " el resultado es " + suma(operador, valor1,valor2));
-console.log("Si multiplicamos " + valor1 + " por " + valor2 + " el resultado es " + multiplicacion(operador, valor1,valor2));
+    if (operador == 'suma')
+    return valor1+valor2;
+
+    if (operador == 'multiplicación')
+    return valor1*valor2;  
+}
+console.log("La " + operador + " de " + valor1 + " y " + valor2 +" es " + calculadora(operador, valor1,valor2));
 </script>
 
 
