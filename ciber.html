@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Sello editorial independiente fundado en Benalmádena (Málaga) que desde 2004 se ha preocupado por dar voz a la poesía, narrativa y ensayo contemporáneos.">		
+	<title>INDEX</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+</head>
+
+<body>
+    
+<!--EJERCICIO 1-->
+<script>
+    console.log ('Hola Mundo')
+</script>
+
+<!--EJERCICIO 2-->
+<script>
+    alert('¡Mi nombre es Natalia!');
+</script>
+
+<!--EJERCICIO 3-->
+<script>
+    let firstName = 'Natalia'; 
+    let lastName ='Domínguez'; 
+    console.log (firstName, lastName)
+</script>
+
+<!--EJERCICIO 4-->
+<script>
+    let x = 34 + 56;
+console.log('La suma entre 34 y 56 es igual a', x);
+</script>
+
+<!--EJERCICIO 5-->
+<script>
+    var result= 8.5; {
+        if (result >= 5) {
+                alert('¡Has aprobado el examen con un ' + result + '!');
+        }
+        else {
+                alert('¡Oh! Has suspendido el examen con un ' + result);   
+        }
+}
+</script>
+
+<!--EJERCICIO 6-->
+<script>
+    const p = 'Tinc un cotxe de color verd';
+
+    const regex = /verd/gi;
+    console.log(p.replace(regex, 'blau'));
+  
+    const regex1 = /o/gi;
+    console.log(p.replace(regex1, 'u'));
+</script>
+
+<!--EJERCICIO 7-->
+<script>
+var objeto = ['Taula', 'Cadira', 'Ordinador', 'Libreta'];
+
+function Ordinal(n)
+ {
+ x = n%100;
+ return x; 
+ }
+
+for(n = 0; n < objeto.length; n++){
+ let ordinal = n;
+
+ var output = ("L´objecte " + objeto[n] + " està a la posiciò " + Ordinal(ordinal) + ".");
+console.log(output);
+}
+</script>
+
+<!--EJERCICIO 8-->
+<script> 
+var operador = ['resta', 'suma', 'multiplicacion']; 
+var valor1 = 40;
+var valor2 = 20;
+
+var resta = function calculadora (operador, valor1,valor2){
+    return valor1-valor2;
+}; 
+var suma = function calculadora (operador, valor1,valor2){
+    return valor1+valor2;
+}; 
+var multiplicacion = function calculadora (operador, valor1,valor2){
+    return valor1*valor2; 
+};
+
+console.log("Si a " + valor1 + " le restamos " + valor2 + " el resultado es " + resta(operador, valor1,valor2));
+console.log("Si a " + valor1 + " le sumamos " + valor2 + " el resultado es " + suma(operador, valor1,valor2));
+console.log("Si multiplicamos " + valor1 + " por " + valor2 + " el resultado es " + multiplicacion(operador, valor1,valor2));
+</script>
+
+
+</body>
+</html>
